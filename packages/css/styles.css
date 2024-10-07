@@ -432,9 +432,14 @@ img {
 
 .about__info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center; /* Centers the items horizontally */
+  align-items: center; /* Centers the items vertically */
+  gap: 50px; /* Adds space between the items */
   margin-bottom: var(--mb-2-5);
 }
+
+
+
 
 .about__info-title {
   font-size: var(--h2-font-size);
